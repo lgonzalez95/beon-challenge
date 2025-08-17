@@ -10,10 +10,11 @@
   },
   "scripts": {
     "wdio": "wdio run ./wdio.conf.js",
-    "test-ui": "wdio wdio.conf.js --environment=$ENVIRONMENT --mochaOpts.grep \"@UI\" --headless=true",
+    "test-ui": "wdio wdio.conf.js --environment=$ENVIRONMENT --mochaOpts.grep \"@UI\"",
     "test-api": "wdio wdio.conf.js --environment=$ENVIRONMENT --mochaOpts.grep \"@API\""
   },
   "dependencies": {
+    "@faker-js/faker": "^9.9.0",
     "yargs": "^17.7.2"
   }
 }

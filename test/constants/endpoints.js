@@ -1,7 +1,7 @@
 export const pathUrls = {
     apiPaths: {
         getPet: (id) => `/pet/${id}`,
-        createPet: () => `/path`,
+        createPet: () => `/pet`,
         updatePet: () => `/pet`,
         deletePet: (id) => `/pet/${id}`
     },
